@@ -1,5 +1,5 @@
 //http://api.openweathermap.org/data/2.5/forecast?q=London,us&mode=json&appid=d02cc80dfa05eafb0489d0d1246dc1d6
-var url = 'http://api.openweathermap.org/data/2.5/forecast?';
+var url = 'https://api.openweathermap.org/data/2.5/forecast?';
 var apiId = '&appid=d02cc80dfa05eafb0489d0d1246dc1d6';
 var citiesUrls = [];
 
