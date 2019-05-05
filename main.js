@@ -86,7 +86,7 @@ function show(data, city) {
 	weatherDiv.appendChild(forCity);
 
 	var icon = document.createElement("img");
-	icon.setAttribute("src", "http://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png")
+	icon.setAttribute("src", "https://openweathermap.org/img/w/" + data.list[0].weather[0].icon + ".png")
 	forCity.appendChild(icon);
 
 	var descriptionDiv = document.createElement("div");
