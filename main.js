@@ -36,7 +36,6 @@ $(document).ready(function () {
 
 
 	$("#date").datepicker({
-		minDate: "-0d",
 		maxDate: "+4d"
 	});
 
